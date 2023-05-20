@@ -1,0 +1,40 @@
+:root {
+  font-family: 'Inter', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: 'Inter var', sans-serif;
+  }
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+h1 {
+  font-size: 100px;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  width: 15ch;
+  color: #ffffff;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 60px 50px;
+  width: calc(100% - 60px);
+}
